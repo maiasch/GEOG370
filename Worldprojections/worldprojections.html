@@ -8,22 +8,67 @@
 <body>
     <h1>In this project I learned how to display images in different projections</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    
+    <p>Using the Qqis software, I was able to modify a single map by devloping it 
+        in several different projections. First I began by adding a vector layer of 
+        a global map, with data provided by "Natural Earth." After my map was displayed, 
+        I went to the Coordinate Reference System tab under Project Properties. At this
+        point I was able to select which projections I wanted to display on said map by
+        entering some version of the name of said projection in the filter section. Once 
+        I applied the altering projection, I also applied the Indicatrix Mapping function 
+        to provide a refernce point, therefore seeing if changes in size or shape had 
+        been made to create the 2-dimensional projection.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The WGS84 projection does not appear to distort the location of mapped data, however 
+        area, shape, and distance seem distorted.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Aitoff projection distorts many apsects of the map, such as shapes, area, distance 
+        and direction.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
-    <p></p>
+    <h2>Pseudo Mercator Projection</h2>
+    <h3>The Psuedo Mercator projection is similar to the WGS84 projection in that it does not 
+        appear to alter relative location of mapped objects, however, unlike the WGS84 the shape
+        is also unchanged. There is evident distortion with distance and area.</h3>
+    <a href="./maps/EPSG_3857.png">
+    <img src="./maps/EPSG_3857.png" alt="Pseudo Mercator" width='500px'>
+    </a>
+    <h2>Sphere Winkel Projection</h2>
+    <h3>The Sphere Winkel projection models the shape of an ellipsoid. There are distortions 
+        regarding area, shape, distance, direction and angles. </h3>
+    <a href="./maps/ESRI_53018n.png">
+    <img src="./maps/ESRI_53018n.png" alt="Winkel" width='500px'>
+    </a>
+    <h2>World Equidistant Conic Projection</h2>
+    <h3>The World Equidistant Conic projection appears to distort distance, area, shape. The 
+        distortion increases as one travels farther north or south from the standard line. 
+        Because of this, regions in mid-latitude areas are most accurately portrayed.</h3>
+    <a href="./maps/ESRI_54027.png">
+    <img src="./maps/ESRI_54027.png" alt="Conic" width='500px'>
+    </a>
+    <h2>North Pole Azimuthal Equidistant Projection</h2>
+    <h3>The North Pole Azimuthal Equidistant projection is similar to the conic projection in that 
+        distortion increases as one travels farher north or south from the standard line, however it 
+        seems to remain true to distance and direction.</h3>
+    <a href="./maps/ESRI_102016.png">
+    <img src="./maps/ESRI_102016.png" alt="Azimuthal" width='500px'>
+    </a>
+    <h2>Sphere Craster Parabolic Projection</h2>
+    <h3>The Sphere Craster Parabolic projection maintains the area, but greatly distorts shape and direction.</h3>
+    <a href="./maps/ESRI_ 53046.png">
+    <img src="./maps/ESRI_ 53046.png" alt="Craster" width='500px'>
+    </a>
+    <h2>Mollweide Projection</h2>
+    <h3>The Mollweide projection, like the Sphere Craster projection is an equal-area projection. The overall
+        shape of the distortion appears to mirror an ellipsoid.</h3>
+    <a href="./maps/WorldMollweidewData.png">
+    <img src="./maps/WorldMollweidewData.png" alt="Mollweide" width='500px'>
+    </a>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
 </body>
