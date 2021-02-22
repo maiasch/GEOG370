@@ -1,0 +1,16 @@
+var lenoir = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.04880881309509,
+          35.910551182261656
+        ]
+      }
+    }
+  ]
+}

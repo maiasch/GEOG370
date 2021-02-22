@@ -1,0 +1,16 @@
+var uncbelltower = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.04921919107436,
+          35.90859381544874
+        ]
+      }
+    }
+  ]
+}

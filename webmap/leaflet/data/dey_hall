@@ -1,0 +1,16 @@
+var murpheyhall = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0496563911438,
+          35.91075538866247
+        ]
+      }
+    }
+  ]
+}

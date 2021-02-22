@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Map</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+    <script src = "campus_y"></script>
+
+    <script src = "uncbelltower"></script>
+
+    <script src = "lenoir_hall"></script>
+
+    <script src = "data/dey_hall"></script>
+
+</head>
+<body>
+
+    <div id="mapid"></div>
+    <style>
+        #mapid{ width: 900px; height: 500px;}
+    </style>
+
+    <script>
+        var map = L.map('mapid').setView([35.91, -79.05], 17);
+        L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {}).addTo(map)
+        L.marker([35.909859, -79.050649]).addTo(map)
+            .bindPopup("Dey Hall")
+            .openPopup();
+
+        L.geoJSON(campusy).addTo(map)
+
+        // L.geoJSON(uncbelltower).addTo(map)
+        var uncIcon1 = L.icon({
+            iconUrl: 'https://www.samford.edu/Templates/images/1x1-Belltower.png',
+            iconSize: [50,50],
+            popupAnchor: [0,0]
+        });
+        
+        var customPopup1 = "UNC Bell Tower<br/><img src='http://images.fineartamerica.com/images-medium-large-5/unc-ch-bell-tower-orange-cat-art.jpg'width='100px'/>";
+
+        L.geoJSON(uncbelltower, { // a
+        pointToLayer: function (feature, latlng) { // b
+        return L.marker(latlng, {icon: uncIcon1});}}) // c
+        .bindPopup(customPopup1) // d
+        .addTo(map);
+
+        // L.geoJSON(lenoir).addTo(map)
+        var uncIcon2 = L.icon({
+            iconUrl: 'https://living.colorado.edu/sites/default/files/styles/large_square_thumbnail/public/callout/hdsweb_dining.png?itok=qAmcYWch',
+            iconSize: [50,50],
+            popupAnchor: [0,0]
+        });
+        
+        var customPopup2 = "Lenoir Dining Hall<br/><img src='https://cdn.usarestaurants.info/assets/uploads/d64c19fa615bcb136eb2dac9b986642b_-united-states-north-carolina-orange-county-chapel-hill-lenoir-dining-hall-800-862-6325htm.jpg'width='100px'/>";
+
+        L.geoJSON(lenoir, { // a
+        pointToLayer: function (feature, latlng) { // b
+        return L.marker(latlng, {icon: uncIcon2});}}) // c
+        .bindPopup(customPopup2) // d
+        .addTo(map);
+
+        // L.geoJSON(murpheyhall).addTo(map)
+        var uncIcon3 = L.icon({
+            iconUrl: 'http://htnys.org/images/icons/education_icon_1000x1000.png',
+            iconSize: [50,50],
+            popupAnchor: [0,0]
+        });
+        
+        var customPopup3 = "Murphey Hall<br/><img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/2008-07-11_UNC-CH_Murphey_Hall.jpg'width='100px'/>";
+
+        L.geoJSON(murpheyhall, { // a
+        pointToLayer: function (feature, latlng) { // b
+        return L.marker(latlng, {icon: uncIcon3});}}) // c
+        .bindPopup(customPopup3) // d
+        .addTo(map);
+
+    </script>
+
+
+</body>
+</html>
