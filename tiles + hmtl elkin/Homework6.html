@@ -44,7 +44,59 @@
         "ESRI World Imagery":ESRI,
       }
 
-      L.control.layers(tiles).addTo(map)
+      var Icon1 = L.icon({
+            iconUrl: 'https://image.flaticon.com/icons/png/512/82/82619.png',
+            iconSize: [50,50],
+            popupAnchor: [0,0]
+        });
+        
+      var customPopup1 = "The Old Elkin Bridge<br/><p> The Old Elkin Bridge, also known as the Hugh Chatham Memorial Bridge, was first built in 1931 to connect the towns of Elkin and Jonesville across the Yadkin River. Without proper care, the bridge became irreparable and unnecessary due to the presence of another bridge only blocks away. The bridge was torn down in 2010, which is why it is present on the historical image, but is no longer visible in the Open Street Map. </p><img src='https://images.fineartamerica.com/images-medium-large-5/hugh-chatham-memorial-bridge-keith-hall.jpg'width='300px'/>";
+
+      var marker1 = L.marker([36.24158210350404, -80.8469295501709], {
+        icon: Icon1,
+        pointToLayer: function (feature, latlng) {
+        return L.marker(latlng);}})
+      .bindPopup(customPopup1)
+      .addTo(map)
+
+      var Icon2 = L.icon({
+            iconUrl: 'https://image.flaticon.com/icons/png/512/704/704905.png',
+            iconSize: [50,50],
+            popupAnchor: [0,0]
+        });
+        
+      var customPopup2 = "Elkin Recreational Tennis Courts<br/><p> In the historical image of Elkin in 1966, it is apparent much of the land along the Big Elkin Creek remained undeveloped. When comparing this to the present arrangement, one of the most obvious changes is the presence of the Elkin City Park, specifically its bright green and blue tennis courts. </p><img src='https://withersravenel.com/wp-content/uploads/2015/07/Elkin-Tennis-courts-1-300x240.png'width='300px'/>";
+
+      var marker2 = L.marker([36.249686, -80.859093], {
+        icon: Icon2,
+        pointToLayer: function (feature, latlng) {
+        return L.marker(latlng);}})
+      .bindPopup(customPopup2)
+      .addTo(map)
+
+      var Icon3 = L.icon({
+            iconUrl: 'https://image.flaticon.com/icons/png/512/169/169856.png',
+            iconSize: [50,50],
+            popupAnchor: [0,0]
+        });
+        
+      var customPopup3 = "Elkin Elementary School<br/><p> In 1975 the “Elkin Graded School” was demolished in hopes to move the school building closer to many Elkin inhabitants. Today the “Elkin Elementary School” is located adjacent to the downtown area, after its construction in the late 20th century. In the historical image the plot where the school now resides appears to be an open field, whereas the booming elementary school is clearly present in the current world imagery. </p><img src='https://media.wfmynews2.com/assets/WFMY/images/f611058a-9cf5-44b9-b9ca-3a4329eac9ae/f611058a-9cf5-44b9-b9ca-3a4329eac9ae_1140x641.jpg'width='300px'/>";
+
+      var marker3 = L.marker([36.245631, -80.854620], {
+        icon: Icon3,
+        pointToLayer: function (feature, latlng) {
+        return L.marker(latlng);}})
+      .bindPopup(customPopup3)
+      .addTo(map)
+
+      var markers = {
+        "bridge description":marker1,
+        "tennis courts":marker2,
+        "elementary school":marker3
+      }
+
+      L.control.layers(tiles, markers).addTo(map);
+
   </script>
 </body>
 </html>
