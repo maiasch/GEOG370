@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>cb87c400320f4d0480f749934b114572</gco:CharacterString>
+    </fileIdentifier>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>David Peacock</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>Brownfields Program</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>Compliance Officer</gco:CharacterString>
+            </positionName>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2017-11-14</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>NCBP_Feature_Poly_View</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2017-28-08</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2017-11-14</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2017-12-05</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Bruce Nicholson</gco:CharacterString>
+                            </individualName>
+                            <organisationName>
+                                <gco:CharacterString>Brownfields Program</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Program Manager</gco:CharacterString>
+                            </positionName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>This feature service is for viewing Brownfields projects content and is updated continuously. This data set shows boundaries of Brownfields Projects that have entered into the program to receive a Brownfields Agreement. The boundaries and areas shown reflect the current status of the project in its progression towards having a recorded Notice of Brownfields Property with a finalized Brownfields Agreement. Additional web links are also provided to view corresponding online project documentation and to download compliance forms.  </gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>This feature service will be used for viewing BF project polygon geographical information.</gco:CharacterString>
+            </purpose>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing" codeSpace="ISOTC211/19115">onGoing</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Bruce Nicholson</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>Brownfields Program</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Program Manager</gco:CharacterString>
+                    </positionName>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Environmental</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Brownfields</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DEQ</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Environmental Quality</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Environmental</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Brownfields</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DEQ</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Environmental Quality</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Environmental</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Brownfields</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DEQ</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Environmental Quality</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Environmental</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Brownfields</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DEQ</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Environmental Quality</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Environmental</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Brownfields</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DEQ</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Environmental Quality</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Environmental</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Brownfields</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DEQ</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Department of Environmental Quality</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Although these data have been processed successfully on a computer system at NC DEQ, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions, or intended use. NC DEQ shall not be held liable for improper or incorrect use of the data described and/or contained herein</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+            </topicCategory>
+            <topicCategory>
+                <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+            </topicCategory>
+            <topicCategory>
+                <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+            </topicCategory>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <extentTypeCode>
+                                <gco:Boolean>true</gco:Boolean>
+                            </extentTypeCode>
+                            <westBoundLongitude>
+                                <gco:Decimal>-84.5068244783666</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-75.30030442783874</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>33.68779129323892</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>36.72126469494407</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                    <temporalElement>
+                        <EX_TemporalExtent>
+                            <extent>
+                                <gml:TimePeriod gml:id="N65705">
+                                    <gml:beginPosition>1997-07-01T00:00:00+00:00</gml:beginPosition>
+                                    <gml:endPosition>2017-11-14T15:37:48.659-05:00</gml:endPosition>
+                                </gml:TimePeriod>
+                            </extent>
+                        </EX_TemporalExtent>
+                    </temporalElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <contentInfo>
+        <MD_FeatureCatalogueDescription>
+            <complianceCode>
+                <gco:Boolean>true</gco:Boolean>
+            </complianceCode>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <includedWithDataset>
+                <gco:Boolean>true</gco:Boolean>
+            </includedWithDataset>
+            <featureCatalogueCitation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>NCBP_Feature_Poly</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2017-09-28</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                </CI_Citation>
+            </featureCatalogueCitation>
+        </MD_FeatureCatalogueDescription>
+    </contentInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions/>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
